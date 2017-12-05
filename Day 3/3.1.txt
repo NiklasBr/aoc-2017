@@ -1,0 +1,1 @@
+See https://oeis.org/A141481/b141481.txt because I could not figure this one out on my own

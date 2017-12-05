@@ -1077,14 +1077,14 @@ $input = explode("\n", "2
 $sum = 0;
 $position = 0;
 while ($position >= 0 && $position < count($input)) {
-    $new_position = $input[$position];
-    if ($new_position >= 3) {
-      $input[$position] -= 1;
-    } else {
-      $input[$position] += 1;
-    }
-    $position += $new_position;
-    $sum += 1;
+  $new_position = $input[$position];
+  if ($new_position >= 3) {
+    $input[$position] -= 1;
+  } else {
+    $input[$position] += 1;
+  }
+  $position += $new_position;
+  $sum += 1;
 }
 
 print "SUM = {$sum}";
